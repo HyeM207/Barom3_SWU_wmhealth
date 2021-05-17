@@ -10,6 +10,14 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ @font-face {
+  font-family: 'BBTreeGB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGB.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10099,11 +10107,18 @@ img::-moz-selection {
   background-color: #0085A1;
   border-color: #0085A1;
 }
+
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #fff;
+  background-color: #F25E3D !important;
+  border-color: #F25E3D !important;
+}
+
+/* .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
   background-color: #00657b !important;
   border-color: #00657b !important;
-}
+} */
 
 .btn-lg, .btn-group-lg > .btn {
   font-size: 16px;
@@ -10254,7 +10269,8 @@ footer .copyright {
 header.masthead {
   margin-bottom: 50px;
   background: no-repeat center center;
-  background-color: #6c757d;
+  background-color: #dddddd;
+  /* background-color: #6c757d; */
   background-attachment: scroll;
   position: relative;
   background-size: cover;
