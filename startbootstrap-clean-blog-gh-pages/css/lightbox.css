@@ -23,8 +23,10 @@
 }
 /* line 24, ../sass/lightbox.sass */
 #lightbox img {
-  width: auto;
-  height: auto;
+  /* width: auto;
+  height: auto; */
+  width: 50%;
+  height: 50%;
 }
 /* line 27, ../sass/lightbox.sass */
 #lightbox a img {
@@ -36,6 +38,8 @@
   position: relative;
   background-color: white;
   *zoom: 1;
+  /* max-width: 80%;
+  height:80% !important; */
   width: 250px;
   height: 250px;
   margin: 0 auto;
