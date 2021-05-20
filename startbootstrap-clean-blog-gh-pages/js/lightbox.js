@@ -49,7 +49,7 @@ lightbox = new Lightbox options
 
     function LightboxOptions() {
       this.fileLoadingImage = './assets/img/slide/loading.gif';
-      //this.fileCloseImage = './assets/img/slide/close.png';
+      this.fileCloseImage = './assets/img/slide/close.png';
       this.resizeDuration = 700;
       this.fadeDuration = 500;
       this.labelImage = "Image";
