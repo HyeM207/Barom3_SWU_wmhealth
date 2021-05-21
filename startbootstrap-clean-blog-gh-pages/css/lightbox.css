@@ -37,9 +37,9 @@
 
 /* line 30, ../sass/lightbox.sass */
 .lb-outerContainer {
-  position: relative;
-  top: 50%;
-  left: 0%;
+  position: absolute;
+  top: 0px;
+  left: 630px;
   background-color: white;
   *zoom: 1;
   /* max-width: 80%;
@@ -167,15 +167,15 @@
 }
 /* line 103, ../sass/lightbox.sass */
 .lb-data .lb-caption {
-  /* position: absolute;
+  position: absolute;
   top: 430px;
-  left: 635px; */
+  left: 635px;
   /* position: relative;
   top: 0px;
   left: 625px; */
-  position: relative;
+  /* position: relative;
   top: 0%;
-  left: 52%;
+  left: 52%; */
   font-size: 13px;
   font-weight: bold;
   line-height: 1em;
@@ -185,12 +185,12 @@
   /* position: relative;
   top: 0px;
   left: 625px; */
-  /* position: absolute;
+  position: absolute;
   top: 440px;
-  left: 635px; */
-  position: relative;
+  left: 635px;
+  /* position: relative;
   top: 0%;
-  left: 52%;
+  left: 52%; */
   display: block;
   clear: left;
   padding-bottom: 1em;
@@ -201,13 +201,13 @@
   /* position: relative;
   top: -50px;
   left: -160px; */
-  /* position: absolute;
+  position: absolute;
   top: 430px;
-  left: 1030px; */
+  left: 1030px;
   /* width: 35px; */
-  position: relative;
+  /* position: relative;
   top: -50%;
-  left: -13%;
+  left: -13%; */
   width: 20px;
   height: 20px;
   /* width: 49%; */
