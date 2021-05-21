@@ -38,6 +38,8 @@
 /* line 30, ../sass/lightbox.sass */
 .lb-outerContainer {
   position: relative;
+  top: 50%;
+  left: 0%;
   background-color: white;
   *zoom: 1;
   /* max-width: 80%;
