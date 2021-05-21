@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>여성건강지키조</title>
+        <title>여성건강지키조 - 자가진단</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
@@ -14,6 +14,15 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/welcome.css">
+        <link rel="stylesheet" href="css/animation.css">
+        <link rel="stylesheet" href="css/qna.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/calc.css">
+        <link rel="stylesheet" href="css/result.css">
+
+
     </head>
     <body>
         <!-- Navigation-->
@@ -34,6 +43,8 @@
                 </div>
             </div>
         </nav>
+
+
         <!-- Page Header-->
         <header class="masthead" style="background-image: url('assets/img/post-bg.jpg')">
             <div class="overlay"></div>
@@ -41,52 +52,159 @@
                 <div class="row">
                     <div class="col-lg-8 col-md-10 mx-auto">
                         <div class="post-heading">
-                            <h1>Man must explore, and this is exploration at its greatest</h1>
-                            <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
-                            <span class="meta">
-                                Posted by
-                                <a href="#!">Start Bootstrap</a>
-                                on August 24, 2021
-                            </span>
+                            <h1>질염 자가진단 테스트</h1>
+
+                            <!-- <h2 class="subheading">자가진단 테스트 해보기</h2> -->
                         </div>
                     </div>
                 </div>
             </div>
         </header>
+
+        <section id="welcome" class="container">
+            <div id="title-box">
+                <h1 class="title">
+                  질염<br>
+                  자가진단 테스트
+                </h1>
+                <h3 class="sec-tit">
+                  10가지 질문으로<br>
+                  알아보는 내 이미지
+                </h3>
+                <span class="time-logo"></span>
+                <div>소요 시간 : 2분 내외</div>
+            </div>
+              <hr class="w-line">
+              <p class="w-line">
+                <span id="p-tit">이 테스트를 통해</span><br>
+                자신의 질염 의심 여부에 대해 확인하실 수 있습니다.<br>
+                해당 테스트는 의심 여부에 대한 테스트 이므로 정확한 진단을 원하시거나
+                현재 질염이 의심되는 분들은 꼭 가까운 산부인과에서 검사를 받기 바랍니다.
+              </p>
+              <hr class="w-line">
+              <p class="check-name warning"></p>
+              <div class="start-wrap">
+                <button class="start">시 작</button>
+              </div>
+        </section>
+        
+        <section id="qna" class="container">
+            <div class="status-bar">
+              <div class="status"></div>
+            </div>
+            <div class="q box"></div>
+            <div class="answer"></div>
+        </section>
+        <section id="calc">
+        <div class="calc-bar">
+            CALCULATING
+            <div class="calc"></div>
+        </div>
+        <p class="wait">잠시 기다려주세요...</p>
+        </section>
+
+        <section id="result" class="container">
+            <div id="score-box">
+                <div class="p title"></div>
+                <div class="point"></div>
+                <div class="pin"></div>
+                <div class="score-bar"></div>
+            </div>
+            <div id="desc-box">
+                
+                <div class="result title"></div>
+                <div class="res desc"></div>
+           
+            </div>
+            <hr>
+            <p>친구들과 공유하기</p>
+            <div class="hash">#10_things_test #3분이미지테스트 #이미지테스트</div>
+            <div id="share-box">
+                <a onclick=javascript:tw() target="_blank" alt="Share on Twitter" title="트위터에 공유하기">
+                <span class="tw"></span>
+                </a>
+                <a onclick=javascript:fb() target="_blank" alt="Share on Facebook" title="페이스북에 공유하기">
+                <span class="fb"></span>
+                </a>
+                <a onclick=javascript:nv() target="_blank" alt="Share on Naver" title="네이버에 공유하기">
+                <span class="nv"></span>
+                </a>
+                <a onclick=javascript:band() target="_blank" alt="Share on Naver Band" title="네이버 밴드에 공유하기">
+                <span class="band"></span>
+                </a>
+            </div>
+            <button onclick=javascript:copy() class="btn">링크 복사하기</button>
+            <hr>
+            <div id="intro-box">
+                <div class="pro_pic"></div>
+                <div class="art-name">껴리(GYEOLY)</div>
+                <div class="artist desc">
+                Sorry for painting<br>
+                동식물과 장소를 가지고 페인팅을 합니다.<br><br>
+                email: <span class="highlight">sallycool27@naver.com</span><br>
+                instagram: <a href="https://www.instagram.com/gyeoly27" target="_blank" title="작가 인스타그램"><span
+                    class="highlight">gyeoly27</span></a>
+                </div>
+                <button class="art-sns btn">
+                <a href="https://www.instagram.com/gyeoly27/" target="_blank" title="작가 인스타그램">
+                    작품 더 보기
+                </a>
+                </button>
+            </div>
+            <hr>
+            <div class="caution">
+                <p>
+                사람은 서로 조금씩 달라서 6가지 이미지에 꼭 맞기는 어렵습니다.
+                결과가 조금 맞지 않더라도 이런 면이 있음을 알고 강점에 주목해 보세요.
+                좋은 평판은 어느새 당신의 단짝이 되어 있을 겁니다!<br><br>
+                테스트가 재밌었다면
+                <span class="go-share highlight" onclick=javascript:goShare()>공유하기</span>로 개발자를 도와주세요!
+                </p>
+            </div>
+            <hr>
+            <div class="caution">
+                <p>
+                이 테스트는 해외 웹사이트에 게재된 이미지 테스트를 한국어로 번역한 것입니다.<br>(원본 아래 참고)<br>
+                <span class="warning">결과 페이지에 나오는 그림의 상업적 이용을 금지합니다.</span><br>
+                해당 이미지의 저작권은 작가에게 있습니다.<br>
+                <a href="https://www.instagram.com/gyeoly27/" target="_blank" title="작가 인스타그램">그림 작가</a>와 연락하시려면
+                <a href="mailto:sallycool27@naver.com" target="_blank" title="작가에게 이메일하기">이메일</a>을 부탁드립니다.<br>
+                테스트와 공유는 자유롭게 하시면 됩니다.<br>
+                <a href="https://dev-dain.tistory.com" target="_blank" title="개발자 블로그">개발자</a>와 연락하시려면
+                <a href="mailto:dev.dain.k@gmail.com?subject=이미지테스트 페이지 문의합니다" target="_blank" title="개발자에게 이메일하기">이메일</a>을
+                부탁드립니다.<br>
+                고맙습니다!
+                </p>
+            </div>
+            <hr>
+            <button class="go-origin btn">
+                <a href="https://www.personalityquiz.net/profiles/impressions.html" target="_blank" title="출처 영문 웹사이트">
+                출처 영문 웹사이트 보기
+                </a>
+            </button>
+        </section>
         <!-- Post Content-->
-        <article>
+        <!-- <article>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-md-10 mx-auto">
-                        <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
-                        <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
-                        <p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
-                        <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
-                        <p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
-                        <h2 class="section-heading">The Final Frontier</h2>
-                        <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-                        <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-                        <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-                        <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-                        <h2 class="section-heading">Reaching for the Stars</h2>
-                        <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-                        <a href="#!"><img class="img-fluid" src="assets/img/post-sample-image.jpg" alt="..." /></a>
-                        <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-                        <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-                        <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-                        <p>
-                            Placeholder text by
-                            <a href="http://spaceipsum.com/">Space Ipsum</a>
-                            &middot; Images by
-                            <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>
-                        </p>
+                        <section id="qna" class="container">
+                            <div class="status-bar">
+                                <div class="status"></div>
+                            </div>
+                            <div class="q box"></div>
+                            <div class="answer"></div>
+                        </section>
+                      
                     </div>
                 </div>
             </div>
-        </article>
-        <hr />
+        </article> -->
+       
+
+
         <!-- Footer-->
-        <footer>
+        <footer id="footer">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-md-10 mx-auto">
@@ -126,5 +244,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/data.js"></script>
     </body>
 </html>
