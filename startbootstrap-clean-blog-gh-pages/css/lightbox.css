@@ -39,7 +39,7 @@
 .lb-outerContainer {
   position: absolute;
   top: 0px;
-  left: 630px;
+  left: 0px;
   background-color: white;
   *zoom: 1;
   /* max-width: 80%;
@@ -169,7 +169,10 @@
 .lb-data .lb-caption {
   position: absolute;
   top: 430px;
-  left: 635px;
+  left: 0px;
+  /* position: absolute;
+  top: 430px;
+  left: 635px; */
   /* position: relative;
   top: 0px;
   left: 625px; */
@@ -182,12 +185,15 @@
 }
 /* line 107, ../sass/lightbox.sass */
 .lb-data .lb-number {
+  position: absolute;
+  top: 440px;
+  left: 0px;
   /* position: relative;
   top: 0px;
   left: 625px; */
-  position: absolute;
+  /* position: absolute;
   top: 440px;
-  left: 635px;
+  left: 635px; */
   /* position: relative;
   top: 0%;
   left: 52%; */
@@ -198,12 +204,15 @@
 }
 /* line 112, ../sass/lightbox.sass */
 .lb-data .lb-close {
+  position: absolute;
+  top: 430px;
+  left: 400px;
   /* position: relative;
   top: -50px;
   left: -160px; */
-  position: absolute;
+  /* position: absolute;
   top: 430px;
-  left: 1030px;
+  left: 1030px; */
   /* width: 35px; */
   /* position: relative;
   top: -50%;
