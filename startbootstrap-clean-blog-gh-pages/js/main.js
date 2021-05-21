@@ -43,7 +43,7 @@ const copy = () => {
 }
 
 const calcScore = () => {
-  let point = 3;
+  let point = 0;
   for (let i = 0; i < ENDPOINT; i++) {
     point += qnaList[i].a[select[i]].score;
   }
@@ -83,17 +83,20 @@ const goResult = () => {
   const animal = document.querySelector('.result');
   const desc = document.querySelector('.res');
 
-  
   //pTitle.innerHTML = '님의 점수는...';
   res_point.innerHTML = point + '점';
   pin.style.marginLeft = infoList[grade].mLeft;
   res_img.src = img_url;
+  //res_img.alt = infoList[grade].name;
+  //res_img.title = infoList[grade].name;
   res_img_div.appendChild(res_img);
+  //animal.innerHTML = infoList[grade].name;
   if (grade == 0){
-    desc.innerHTML = infoList[grade].desc + '<br>' + infoList[grade].desc1 + '<br>' + infoList[grade].desc2;
+    desc.innerHTML = infoList[grade].desc + '<br>' + infoList[grade].descc + '<br>' + infoList[grade].desc1 + '<br>' + infoList[grade].desc2;
   } else {
     desc.innerHTML = infoList[grade].desc + '<br>' + infoList[grade].desc1;
   }
+
   setTimeout(() => {
     //print();
     //header.style.display = 'block';
@@ -107,6 +110,7 @@ const goResult = () => {
       'going-up 0.5s, ' +
       'fade-in 0.5s forwards';
   }, 600);
+
 }
 
 const end = () => {
@@ -179,7 +183,7 @@ const goNext = () => {
   const qNum = qnaList[qIdx];
   const q = document.querySelector('.q');
 
-  status.style.width = (((qIdx + 1) / ENDPOINT) * 100) + '%';
+  status.style.width = (ENDPOINT * (qIdx + 1)) + '%';
   q.innerHTML = qNum.q;
   qna.style.animation =
     'fade-in 0.3s ease-in-out 0.4s forwards, ' +
