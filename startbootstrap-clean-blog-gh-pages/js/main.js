@@ -83,14 +83,17 @@ const goResult = () => {
   const animal = document.querySelector('.result');
   const desc = document.querySelector('.res');
 
+  
   //pTitle.innerHTML = '님의 점수는...';
   res_point.innerHTML = point + '점';
   pin.style.marginLeft = infoList[grade].mLeft;
   res_img.src = img_url;
   res_img_div.appendChild(res_img);
-  animal.innerHTML = infoList[grade].name;
-  desc.innerHTML = infoList[grade].desc;
-
+  if (grade == 0){
+    desc.innerHTML = infoList[grade].desc + '<br>' + infoList[grade].desc1 + '<br>' + infoList[grade].desc2;
+  } else {
+    desc.innerHTML = infoList[grade].desc + '<br>' + infoList[grade].desc1;
+  }
   setTimeout(() => {
     //print();
     //header.style.display = 'block';
