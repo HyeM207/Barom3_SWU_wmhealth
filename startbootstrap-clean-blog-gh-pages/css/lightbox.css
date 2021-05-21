@@ -25,10 +25,10 @@
 #lightbox img {
   /* width: auto;
   height: auto; */
-  /* width: 50%;
-  height: 50%; */
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
+  /* width: 400px;
+  height: 400px; */
 }
 /* line 27, ../sass/lightbox.sass */
 #lightbox a img {
@@ -127,7 +127,8 @@
 
 /* line 88, ../sass/lightbox.sass */
 .lb-dataContainer {
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin : 0;
   padding-top: 5px;
   *zoom: 1;
   width: 100%;
@@ -156,8 +157,9 @@
 }
 /* line 98, ../sass/lightbox.sass */
 .lb-data .lb-details {
-  width: 85%;
-  float: left;
+  /* width: 85%; */
+  width:100%;
+  float: center;
   text-align: left;
   line-height: 1.1em;
 }
@@ -177,11 +179,12 @@
 /* line 112, ../sass/lightbox.sass */
 .lb-data .lb-close {
   /* width: 35px; */
-  width: 49%;
-  height: 100%;
-  
+  width: 20px;
+  height: 20px;
+  /* width: 49%;
+  height: 100%; */
   float: right;
-  padding-bottom: 0.7em;
+  /* padding-bottom: 0.7em; */
   outline: none;
 }
 
