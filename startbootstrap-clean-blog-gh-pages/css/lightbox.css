@@ -38,14 +38,14 @@
 /* line 30, ../sass/lightbox.sass */
 .lb-outerContainer {
   position: absolute;
-  top: 200px;
-  left: 0px;
+  top: 0px;
+  left: 150px;
   background-color: white;
   *zoom: 1;
   /* max-width: 80%;
   height:80% !important; */
-  max-width: 420px;
-  max-height: 420px;
+  max-width: 920px;
+  max-height: 920px;
   margin: 0 auto;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -168,8 +168,8 @@
 /* line 103, ../sass/lightbox.sass */
 .lb-data .lb-caption {
   position: absolute;
-  top: 630px;
-  left: 0px;
+  top: 935px;
+  left: 150px;
   /* position: absolute;
   top: 430px;
   left: 635px; */
@@ -179,15 +179,15 @@
   /* position: relative;
   top: 0%;
   left: 52%; */
-  font-size: 13px;
+  font-size: 40px;
   font-weight: bold;
   line-height: 1em;
 }
 /* line 107, ../sass/lightbox.sass */
 .lb-data .lb-number {
   position: absolute;
-  top: 640px;
-  left: 0px;
+  top: 990px;
+  left: 150px;
   /* position: relative;
   top: 0px;
   left: 625px; */
@@ -200,13 +200,16 @@
   display: block;
   clear: left;
   padding-bottom: 1em;
-  font-size: 11px;
+  font-size: 40px;
 }
 /* line 112, ../sass/lightbox.sass */
 .lb-data .lb-close {
   position: absolute;
+  top: 930px;
+  left: 1000px;
+  /* position: absolute;
   top: 630px;
-  left: 400px;
+  left: 400px; */
   /* position: relative;
   top: -50px;
   left: -160px; */
@@ -217,8 +220,8 @@
   /* position: relative;
   top: -50%;
   left: -13%; */
-  width: 20px;
-  height: 20px;
+  width: 60px;
+  height: 60px;
   /* width: 49%; */
   /* width: 49%;
   height: 100%; */
