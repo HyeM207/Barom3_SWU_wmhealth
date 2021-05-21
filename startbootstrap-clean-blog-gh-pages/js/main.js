@@ -1,6 +1,5 @@
 const footer = document.getElementById('footer');
 const qna = document.getElementById('qna');
-const u_name = document.querySelector('input[type=text]');
 const wrap = document.getElementById('wrap');
 const tabletMQL = window.matchMedia("all and (min-width: 768px)");
 const pcMQL = window.matchMedia("all and (min-width: 1024px)");
@@ -74,23 +73,19 @@ const goResult = () => {
   const result = document.getElementById('result');
   const point = calcScore();
   const grade = sortResult(point);
-  const pTitle = document.querySelector('.p');
   const res_point = document.querySelector('.point');
   const pin = document.querySelector('.pin');
   const img_url = 'img/capture.png';
   const res_img = document.createElement('img');
   const res_img_div = document.querySelector('.art');
-  const animal = document.querySelector('.result');
+  const title = document.querySelector('.result');
   const desc = document.querySelector('.res');
 
-  //pTitle.innerHTML = '님의 점수는...';
   res_point.innerHTML = point + '점';
   pin.style.marginLeft = infoList[grade].mLeft;
   res_img.src = img_url;
-  //res_img.alt = infoList[grade].name;
-  //res_img.title = infoList[grade].name;
   res_img_div.appendChild(res_img);
-  //animal.innerHTML = infoList[grade].name;
+  title.innerHTML = infoList[grade].name;
   if (grade == 0){
     desc.innerHTML = infoList[grade].desc + '<br>' + infoList[grade].descc + '<br>' + infoList[grade].desc1 + '<br>' + infoList[grade].desc2;
   } else {
@@ -98,12 +93,8 @@ const goResult = () => {
   }
 
   setTimeout(() => {
-    //print();
-    //header.style.display = 'block';
     footer.style.display = 'block';
     result.style.display = 'block';
-    //header.style.animation =
-      'fade-in 0.3s forwards';
     footer.style.animation =
       'fade-in 0.3s forwards';
     result.style.animation =
@@ -145,6 +136,7 @@ const addAnswer = (answerTxt, idx) => {
   const a = document.querySelector('.answer');
   answer.className += 'a box';
   answer.innerHTML = answerTxt;
+
   answer.addEventListener('click', () => {
     const parent = answer.parentNode;
     const children = parent.childNodes;
@@ -183,8 +175,14 @@ const goNext = () => {
   const qNum = qnaList[qIdx];
   const q = document.querySelector('.q');
 
-  status.style.width = (ENDPOINT * (qIdx + 1)) + '%';
-  q.innerHTML = qNum.q;
+  status.style.width = (((qIdx + 1) / ENDPOINT) * 100) + '%';
+
+  if (qIdx == 8){
+    q.innerHTML = qNum.q.desc + '<br>' + qNum.q.desc1 + '<br>';
+  } else {
+    q.innerHTML = qNum.q;
+  }
+  
   qna.style.animation =
     'fade-in 0.3s ease-in-out 0.4s forwards, ' +
     'going-down 0.3s ease-in-out 0.4s forwards';

@@ -68,7 +68,7 @@ const qnaList = [
     ]
   },
   {
-    q: '3. 아래 증상 중 겪고 있는 증상이 몇 개인지 골라주세요\n a. 가려움    b. 부어오름    c. 열감    d. 통증',
+    q: { desc: '3. 아래 증상 중 겪고 있는 증상의 개수를 골라주세요', desc1: 'a. 가려움    b. 부어오름    c. 열감    d. 통증 ' },
     a: [
       { answer: 'pass', score: 0 },
       { answer: '1) 증상 없음', score: 0, jmp: 1 },
@@ -96,12 +96,13 @@ const qnaList = [
     ]
   },
   {
-    q: '5. 아래 예시 중 자신의 생활 습관에 해당하는 것을 골라주세요\n a. 팬티라이너를 자주 사용한다    b. 질을 자주 씻는다',
+    q: '5. 자신의 생활 습관에 해당하는 것을 골라주세요',
     a: [
       { answer: 'pass', score: 0 },
-      { answer: '1) 해당 없음', score: 0, jmp: 0 },
-      { answer: '2) 둘 중 하나에 해당한다', score: 1, jmp: 0 },
-      { answer: '3) 둘 다 해당한다', score: 2, jmp: 0 }
+      { answer: '1) 팬티라이너를 자주 사용한다', score: 1, jmp: 0 },
+      { answer: '2) 질을 자주 씻는다', score: 1, jmp: 0 },
+      { answer: '3) 둘 다 해당한다', score: 2, jmp: 0 },
+      { answer: '4) 해당 없음', score: 0, jmp: 0 }
     ]
   },
   {
