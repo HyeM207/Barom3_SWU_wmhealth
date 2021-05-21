@@ -38,7 +38,7 @@
 /* line 30, ../sass/lightbox.sass */
 .lb-outerContainer {
   position: absolute;
-  top: 0px;
+  top: 200px;
   left: 0px;
   background-color: white;
   *zoom: 1;
@@ -168,7 +168,7 @@
 /* line 103, ../sass/lightbox.sass */
 .lb-data .lb-caption {
   position: absolute;
-  top: 430px;
+  top: 630px;
   left: 0px;
   /* position: absolute;
   top: 430px;
@@ -186,7 +186,7 @@
 /* line 107, ../sass/lightbox.sass */
 .lb-data .lb-number {
   position: absolute;
-  top: 440px;
+  top: 640px;
   left: 0px;
   /* position: relative;
   top: 0px;
@@ -205,7 +205,7 @@
 /* line 112, ../sass/lightbox.sass */
 .lb-data .lb-close {
   position: absolute;
-  top: 430px;
+  top: 630px;
   left: 400px;
   /* position: relative;
   top: -50px;
