@@ -43,7 +43,7 @@ const copy = () => {
 }
 
 const calcScore = () => {
-  let point = 0;
+  let point = 3;
   for (let i = 0; i < ENDPOINT; i++) {
     point += qnaList[i].a[select[i]].score;
   }
@@ -104,7 +104,6 @@ const goResult = () => {
       'going-up 0.5s, ' +
       'fade-in 0.5s forwards';
   }, 600);
-
 }
 
 const end = () => {
@@ -177,7 +176,7 @@ const goNext = () => {
   const qNum = qnaList[qIdx];
   const q = document.querySelector('.q');
 
-  status.style.width = (ENDPOINT * (qIdx + 1)) + '%';
+  status.style.width = (((qIdx + 1) / ENDPOINT) * 100) + '%';
   q.innerHTML = qNum.q;
   qna.style.animation =
     'fade-in 0.3s ease-in-out 0.4s forwards, ' +
