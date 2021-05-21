@@ -77,7 +77,7 @@ const goResult = () => {
   const pTitle = document.querySelector('.p');
   const res_point = document.querySelector('.point');
   const pin = document.querySelector('.pin');
-  const img_url = 'img/image-' + grade + '.png';
+  const img_url = 'img/capture.png';
   const res_img = document.createElement('img');
   const res_img_div = document.querySelector('.art');
   const animal = document.querySelector('.result');
@@ -87,9 +87,7 @@ const goResult = () => {
   res_point.innerHTML = point + '점';
   pin.style.marginLeft = infoList[grade].mLeft;
   res_img.src = img_url;
-  res_img.alt = infoList[grade].name;
-  res_img.title = infoList[grade].name;
-  //res_img_div.appendChild(res_img);
+  res_img_div.appendChild(res_img);
   animal.innerHTML = infoList[grade].name;
   desc.innerHTML = infoList[grade].desc;
 
