@@ -10,7 +10,7 @@
 + **WEB SITE ADDRESS*
   + https://swu-wmhealth.netlify.app/
 ---
-+ **프로젝트 설명**
+## 프로젝트 설명
 
  **1.MAIN PAGE**
   - [x] 자가진단하러 가기 | 카드뉴스 보러가기 | 자가진단 이벤트 보러가기
