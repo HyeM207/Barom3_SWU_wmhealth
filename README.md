@@ -4,7 +4,7 @@
 + 템플릿 출처
   + https://startbootstrap.com/theme/clean-blog
 
-+ [자가진단 출처] [ https://github.com/dev-dain/10-things-test]
++ **[자가진단 출처]** [ https://github.com/dev-dain/10-things-test]
   + https://github.com/dev-dain/10-things-test
 
 + 프로젝트 설명
