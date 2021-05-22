@@ -42,7 +42,7 @@ const copy = () => {
 }
 
 const calcScore = () => {
-  let point = 0;
+  let point = 3;
   for (let i = 0; i < ENDPOINT; i++) {
     point += qnaList[i].a[select[i]].score;
   }
@@ -55,7 +55,7 @@ const sortResult = (point) => {
     num = 0;
   } else if (point <= 34) {
     num = 1;
-  } else if (point <= 47) {
+  } else if (point <= 50) {
     num = 2;
   } 
   return num;
