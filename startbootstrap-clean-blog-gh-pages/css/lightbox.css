@@ -40,17 +40,19 @@
 
   /* line 30, ../sass/lightbox.sass */  /*카드뉴스 위치 */
   .lb-outerContainer {
+    
     position: absolute;
     left: 450px;
-    /*position: absolute;
+    /*
+    position: absolute;
     left: 50%; transform: translateX(-50%);
-    */
+   */
     background-color: white;
     *zoom: 1;
     /* max-width: 80%;
     height:80% !important; */
-    max-width: 700px;
-    max-height: 700px;
+    max-width: 680px;
+    max-height: 680px;
     margin: 0 auto;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -172,13 +174,13 @@
   }
   /* line 103, ../sass/lightbox.sass */
   .lb-data .lb-caption { /* 제목*/
-    position:absolute;
-    left : 450px;
-    top :  720px;
-    /* position: absolute;
+    /*position:absolute;
     left : 50%; 
     transform: translateX(-150%);
-    top :720px;*/
+    top :  700px;*/
+    position: absolute;
+    left : 450px;
+    top :720px;
     /* position: absolute;
     top: 430px;
     left: 635px; */
@@ -214,7 +216,7 @@
   /* line 112, ../sass/lightbox.sass */
   .lb-data .lb-close { /*버튼 */
     position:absolute;
-    left : 1100px;
+    left : 1080px;
     top :  720px;
     
     /* position: absolute;
@@ -250,7 +252,7 @@
 
 
 
-/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/ @media all and (max-width:1023px) {
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/ @media all and (max-width:767px) {
     /* line 6, ../sass/lightbox.sass */
   #lightboxOverlay {
     position: absolute;
@@ -292,7 +294,7 @@
   .lb-outerContainer {
     position: absolute;
     top: 300px; /*ㅁ 여기 */
-    left: 0px; /*ㅁ 여기 */
+    left: 150px; /*ㅁ 여기 */
     background-color: white;
     *zoom: 1;
     /* max-width: 80%;
