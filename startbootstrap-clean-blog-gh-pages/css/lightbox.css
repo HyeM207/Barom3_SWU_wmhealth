@@ -42,7 +42,7 @@
   .lb-outerContainer {
     
     position: absolute;
-    left: 430px;
+    left: 400px;
     /*
     position: absolute;
     left: 50%; transform: translateX(-50%);
@@ -179,7 +179,7 @@
     transform: translateX(-150%);
     top :  700px;*/
     position: absolute;
-    left :  430px;
+    left :  400px;
     top :700px;
     /* position: absolute;
     top: 430px;
@@ -197,7 +197,7 @@
   /* line 107, ../sass/lightbox.sass */
   .lb-data .lb-number { /*페이지 숫자*/
     position:absolute;
-    left :  430px;
+    left :  400px;
     top :  740px;
     /* position: relative;
     top: 0px;
@@ -216,7 +216,7 @@
   /* line 112, ../sass/lightbox.sass */
   .lb-data .lb-close { /*버튼 */
     position:absolute;
-    left : 1060px;
+    left : 1030px;
     top :  700px;
     
     /* position: absolute;
