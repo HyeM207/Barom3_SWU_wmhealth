@@ -27,7 +27,7 @@
 
 
  **4. INSTAGRAM**
-  - [x] [https://www.instagram.com/swu_wmhealth/]
+  - [x] https://www.instagram.com/swu_wmhealth/
  
  
  ---
