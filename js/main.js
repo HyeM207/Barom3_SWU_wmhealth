@@ -42,7 +42,7 @@ const copy = () => {
 }
 
 const calcScore = () => {
-  let point = 3;
+  let point = 0;
   for (let i = 0; i < ENDPOINT; i++) {
     point += qnaList[i].a[select[i]].score;
   }
