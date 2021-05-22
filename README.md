@@ -14,19 +14,6 @@
 최종 프로젝트는 자가진단 웹사이트 제작으로, 자가진단 웹사이트 통해 많은 여성들이 질염에 관심을 갖고 질염에 대한 올바른 지식을 확립하여 자신의 건강에 대해 능동적인 자세를 가지고 스스로 관리하는데 도움이 되길 바랍니다.
 
 
-
-+ **템플릿 출처**
-  + https://startbootstrap.com/theme/clean-blog
-
-+ **자가진단 출처** 
-  + Dain Kim
-  + https://github.com/dev-dain/10-things-test
-
-+ **WEB SITE ADDRESS**
-  + https://swu-wmhealth.netlify.app/
-
-
-
 ## 프로젝트 설명
 
  **1.MAIN PAGE**
@@ -46,3 +33,15 @@
  **4. INSTAGRAM**
   - [x] [https://www.instagram.com/swu_wmhealth/]
  
+ 
+ --
+ 
++ **템플릿 출처**
+  + https://startbootstrap.com/theme/clean-blog
+
++ **자가진단 출처** 
+  + Dain Kim
+  + https://github.com/dev-dain/10-things-test
+
++ **WEB SITE ADDRESS**
+  + https://swu-wmhealth.netlify.app/
