@@ -42,7 +42,7 @@ const copy = () => {
 }
 
 const calcScore = () => {
-  let point = 0;
+  let point = 3;
   for (let i = 0; i < ENDPOINT; i++) {
     point += qnaList[i].a[select[i]].score;
   }
@@ -86,8 +86,12 @@ const goResult = () => {
   res_img.src = img_url;
   res_img_div.appendChild(res_img);
   title.innerHTML = infoList[grade].name;
-  if (grade == 0){
-    desc.innerHTML = infoList[grade].desc + '<br>' + infoList[grade].descc + '<br>' + infoList[grade].desc1 + '<br>' + infoList[grade].desc2;
+
+  if (grade == 0 && select[4] == 1){
+    desc.innerHTML = infoList[grade].desc + '<br>' + infoList[grade].descc + '<br>' + infoList[grade].desc1 + '<br>' + infoList[grade].desc2 + '<br>'  + infoList[grade].desc3 + '<br>' + '<br>' + infoList[grade].desc4;
+  }
+  else if (grade == 0){
+    desc.innerHTML = infoList[grade].desc + '<br>' + infoList[grade].descc + '<br>' +infoList[grade].desc1 + '<br>' + infoList[grade].desc2 + '<br>'  + infoList[grade].desc3;
   } else {
     desc.innerHTML = infoList[grade].desc + '<br>' + infoList[grade].desc1;
   }

@@ -83,9 +83,9 @@ lightbox = new Lightbox options
         id: 'lightboxOverlay'
       }).after($('<div/>', {
         id: 'lightbox'
-      }).append($('<div/>', {
+      }).append($('<div style="text-align : center;"/>', {
         "class": 'lb-outerContainer'
-      }).append($('<div/>', {
+      }).append($('<div style="text-align : center;"/>', {
         "class": 'lb-container'
       }).append($('<img/>', {
         "class": 'lb-image'
