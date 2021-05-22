@@ -229,3 +229,11 @@ hr {
     width: 90%;
   }
 }
+
+@media all and (min-width: 1920px) {
+  #welcome {
+    min-height: 120vh;
+    box-shadow: #ddd 0px 0px 10px 5px;
+    background: rgb(252, 252, 252);
+  }
+}
