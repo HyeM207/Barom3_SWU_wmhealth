@@ -7,7 +7,8 @@
 + **자가진단 출처** 
   + https://github.com/dev-dain/10-things-test
 
-+ 프로젝트 설명
-
++ **프로젝트 설명**
+  - [x] 메인 페이지
+  - [x] 질염 자가진단 페이지
 + main 페이지 주소
   + https://startbootstrap.com/theme/clean-blog
