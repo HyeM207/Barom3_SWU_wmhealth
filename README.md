@@ -9,6 +9,9 @@
 
 + **프로젝트 설명**
   - [x] 메인 페이지
+  - [x] ABOUT US
   - [x] 질염 자가진단 페이지
-+ main 페이지 주소
-  + https://startbootstrap.com/theme/clean-blog
+  - [x] INSTRAGRAM
+ 
++ **main 페이지 주소**
+  + https://swu-wmhealth.netlify.app/
