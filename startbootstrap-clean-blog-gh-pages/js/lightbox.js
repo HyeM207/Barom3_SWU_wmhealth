@@ -143,6 +143,10 @@ lightbox = new Lightbox options
         _this.end();
         return false;
       });
+      $lightbox.find('.lb-close').on('click', function(e) {
+        _this.end();
+        return false;
+      });
     };
 
     Lightbox.prototype.start = function($link) {
