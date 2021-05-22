@@ -424,8 +424,8 @@
   /* line 103, ../sass/lightbox.sass */
   .lb-data .lb-caption { /* 제목*/
     position: absolute;
-    top: 935px; /*ㅁ 여기 */
-    left: 150px; /*ㅁ 여기 */
+    top: 330px; /*ㅁ 여기 */
+    left: 60px; /*ㅁ 여기 */
     /* position: absolute;
     top: 430px;
     left: 635px; */
@@ -435,15 +435,15 @@
     /* position: relative;
     top: 0%;
     left: 52%; */
-    font-size: px; /*글씨 크기*/
+    font-size: 20px; /*글씨 크기*/
     font-weight: bold;
     line-height: 1em;
   }
   /* line 107, ../sass/lightbox.sass */
   .lb-data .lb-number { /*페이지 숫자*/
     position: absolute;
-    top: 990px; /*ㅁ 여기 */
-    left: 150px; /*ㅁ 여기 */
+    top: 350px; /*ㅁ 여기 */
+    left: 60px; /*ㅁ 여기 */
     /* position: relative;
     top: 0px;
     left: 625px; */
@@ -456,13 +456,13 @@
     display: block;
     clear: left;
     padding-bottom: 1em;
-    font-size: 40px;
+    font-size:20px;
   }
   /* line 112, ../sass/lightbox.sass */
   .lb-data .lb-close { /*버튼 */
     position: absolute;
-    top: 930px;
-    left: 1000px;
+    top: 330px;
+    left: 340px;
     /* position: absolute;
     top: 630px;
     left: 400px; */
@@ -476,8 +476,8 @@
     /* position: relative;
     top: -50%;
     left: -13%; */
-    width: 60px;
-    height: 60px;
+    width: 35px;
+    height: 35px;
     /* width: 49%; */
     /* width: 49%;
     height: 100%; */
