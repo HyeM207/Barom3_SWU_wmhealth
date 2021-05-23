@@ -27,16 +27,16 @@
 }
 .gogo {
   box-sizing: border-box;
-  width: 50%;
-  height: 60px;
-  line-height: 60px;
+  width: 30%;
+  height: 40px;
+  line-height: 40px;
   border-radius: 50px;
   text-align: center;
   background-color: rgba(0, 135, 245, 0.9);
   color: #fff;
   font-weight: 600;
-  font-size: 23px;
-  font-size: 2rem;
+  font-size: 18px;
+
   animation: fade-in 0.5s ease-out 1.9s both, 
           going-down 0.5s ease-out 1.9s both,
           start-flicker 2.5s infinite;
